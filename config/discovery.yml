@@ -1,13 +1,11 @@
-enable: "etcd"
+enable: zookeeper
 etcd:
-  rootDirectory: openim
+  rootDirectory: nextim
   address: [ localhost:12379 ]
   username: ''
   password: ''
-
 zookeeper:
-  schema: openim
-  address: [ localhost:12181 ]
+  schema: nextim
+  address: [ z-3.devim.xt28b0.c3.kafka.us-east-2.amazonaws.com:2181,z-1.devim.xt28b0.c3.kafka.us-east-2.amazonaws.com:2181,z-2.devim.xt28b0.c3.kafka.us-east-2.amazonaws.com:2181 ]
   username: ''
   password: ''
-

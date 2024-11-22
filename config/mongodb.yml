@@ -1,13 +1,13 @@
 # URI for database connection, leave empty if using address and credential settings directly
-uri: ''
+uri:
 # List of MongoDB server addresses
-address: [ localhost:37017 ]
+address: [ dev-im.cluster-chugg8ey2uuq.us-east-2.docdb.amazonaws.com:27017 ]
 # Name of the database
-database: openim_v3
+database: nextim
 # Username for database authentication
-username: openIM
+username: devim
 # Password for database authentication
-password: openIM123
+password: SiuziV64gxNPFV8wbNxYrggWtw
 # Maximum number of connections in the connection pool
 maxPoolSize: 100
 # Maximum number of retry attempts for a failed database connection

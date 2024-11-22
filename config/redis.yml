@@ -1,14 +1,8 @@
-# List of Redis server addresses
-address: [ localhost:16379 ]
-# Username for Redis authentication (leave blank if not used)
-username: ''
-# Password for Redis authentication
-password: openIM123
-# Enable or disable pipeline processing
-enablePipeline: false
-# Enable or disable cluster mode
-clusterMode: false
-# Database index to be used
+address: [ dev-im-scca8t.serverless.use2.cache.amazonaws.com:6379 ]
+username: default
+password: ToXjvU8tXHxtPmL8OLclWT6jVD
+clusterMode: true
 db: 0
-# Maximum number of retry attempts for a failed connection
 maxRetry: 10
+poolSize: 100
+tlsEnabled: true
